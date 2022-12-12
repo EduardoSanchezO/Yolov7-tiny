@@ -18,11 +18,25 @@ If you want to train your own network or do transfer learning here below is a li
 https://github.com/WongKinYiu/yolov7.git
 
 The steps to run the image detector are shown below:
-1.DOWNLOAD FOLDER 
-Download and enter the folder.
 
-2.OPEN TERMINAL  
-Once we are inside the folder we are going to right click and click on open terminal.
+1.OPEN TERMINAL  
+click ctrl+alt+t
+
+2.DOWNLOAD FOLDER 
+Download and enter the folder:
+
+$  git clone https://github.com/EduardoSanchezO/Yolov7-tiny.git
+
+$ cd Yolov7-tiny/
+
+3.ANACONDA ENVIRONMENT
+We have to create an anaconda environment.write the following line code:
+
+$ conda create -n detectobj python=3.6
+
+$ source activate detectobj
+ 
+That´s all!!
 
 3. INSTALL PACKAGES AND DEPENDENCIES
 Run the following command:
