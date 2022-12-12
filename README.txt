@@ -36,7 +36,6 @@ $ conda create -n detectobj python=3.6
 
 $ source activate detectobj
  
-That´s all!!
 
 3. INSTALL PACKAGES AND DEPENDENCIES
 Run the following command:
@@ -63,4 +62,6 @@ list.streams                    # list of streams
 'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 
 In the folder prueba/ save some images for testing. 
-If you want to use the webcam you only need to set 0.
+If you want to use the webcam you only need to set 0 or run the deteccion_video.py file with:
+
+$ python deteccion_video.py 
