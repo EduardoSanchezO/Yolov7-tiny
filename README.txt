@@ -37,14 +37,14 @@ $ conda create -n detectobj python=3.6
 $ source activate detectobj
  
 
-3. INSTALL PACKAGES AND DEPENDENCIES
+4. INSTALL PACKAGES AND DEPENDENCIES
 Run the following command:
 
 $ pip install -r requirements.txt 
 
 In this step we have to have pip installed in our ubuntu distribution.
 
-4.EXECUTE
+5.EXECUTE
 Finally we execute the following line of code.
 
 $ python detect.py --source prueba/i1.jpg
